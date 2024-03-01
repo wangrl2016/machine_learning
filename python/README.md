@@ -36,5 +36,43 @@ Windows, macOS and Linux.
 
 Install VS Code for your platform and configure the tool set for your development needs.
 
+### 2. Using the Python Interpreter
+
+#### 2.1 Invoking the Interpreter
+
+There are 2 way to invoking the interpreter:
+
+* Interactive mode: commands are read from terminal.
+
+* Argument passing: script file is used.
+
+
+### 2.1.1 Interactive Mode
+
+Open terminal and type `which python3`, it will show path of python installed.
+
+```
+/Library/Frameworks/Python.framework/Versions/3.12/bin/python3
+```
+
+Type `python3` in termianl will enter python interpreter, which is said to be in interactive mode. In this mode
+it prompts for the next command with the primary prompt, usually three greater-than signs (>>>); for continuation
+lines it prompts with the secondary prompt, by default three dots(...).
+
+```
+>>> the_world_is_flat = True
+>>> if the_world_is_flat:
+...     print('Be careful not to fall off!')
+...
+Be careful not to fall off!
+>>>
+```
+
+Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt causes the interpreter
+to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following
+command: `quit()`.
+
+### 2.1.2 Argument Passing
+
 
 
