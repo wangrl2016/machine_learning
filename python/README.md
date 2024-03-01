@@ -43,11 +43,10 @@ Install VS Code for your platform and configure the tool set for your developmen
 There are 2 way to invoking the interpreter:
 
 * Interactive mode: commands are read from terminal.
-
 * Argument passing: script file is used.
 
 
-### 2.1.1 Interactive Mode
+##### 2.1.1 Interactive Mode
 
 Open terminal and type `which python3`, it will show path of python installed.
 
@@ -72,7 +71,6 @@ Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at th
 to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following
 command: `quit()`.
 
-### 2.1.2 Argument Passing
+##### 2.1.2 Argument Passing
 
-
-
+* PEP 299 - Special __main__() function in modules
