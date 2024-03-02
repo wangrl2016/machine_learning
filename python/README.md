@@ -123,6 +123,9 @@ string of n characters has index n, for example:
 
 #### 3.3 [The introduction of `List` structure](list_struct.py)
 
+Python has a great built in list type named `list`. List literals are written within square
+brackets [].
+
 #### 3.4 [Fibonacci Sequence](fibonacci_series.py)
 
 The Fibonacci numbers may be defined by the recurrence relation F0 = 0, F1 = 1,
@@ -143,6 +146,23 @@ and F(n) = F(n-1) + F(n-2) for n > 1.
 * The `pass` statement does nothing.
 * A `match` statement takes an expression and compares its value to successive patterns.
 
-#### 4.2 Defining Functions
+#### 4.2 [Defining Functions](define_function.py)
+
+* A positional argument is an argument that is passed to a function based on its position in the
+argument list. Positional arguments can appear at the beginning of an argument list and/or
+be passed as elements of an iterable preceded by *.
+
+```
+complex(3, 5)
+complex(*(3, 5))
+```
+
+* Keyword argument: an argument preceded by an identifier (e.g. name=) in a function call or
+passed as a value in a dictionary preceded by **.
+
+```
+complex(real=3, imag=5)
+complex(**{'real': 3, 'imag': 5})
+```
 
 #### 4.3 More on Defining Functions

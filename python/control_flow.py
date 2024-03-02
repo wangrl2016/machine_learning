@@ -77,4 +77,32 @@ if __name__ == '__main__':
             print('Found an even number', num)
             continue
         print('Found an odd number', num)
-        
+
+    # A `match` statement takes an expression and compares its value to successive patterns given as
+    # one or more case blocks.
+    status = 403
+    match status:
+        case 400:
+            print('Bad request')
+        case 401 | 403 | 404:
+            print('Not found')
+        case 418:
+            print("I'm a teapot")
+        case _:
+            print("Something's wrong with the internet")
+    
+    # Point is an (x, y) tuple.
+    point = (4, 5)
+    match point:
+        case (0, 0):
+            print('Origin')
+        case (0, y):
+            print(f'Y={y}')
+        case (x, 0):
+            print(f'X={x}')
+        # Captures two values, which makes it conceptually similar to the unpacking
+        # assignment `(x, y) = point`
+        case (x, y):
+            print(f'X={x}, Y={y}')
+        case _:
+            raise ValueError('Not a point')
