@@ -132,3 +132,14 @@ and F(n) = F(n-1) + F(n-2) for n > 1.
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --  |
 | 0  | 1  | 1  | 2  | 3  | 5  | 8  | 13 | 21 | 34 | 55  |
 
+### More Control Flow
+
+#### 4.1 [Control Flow](control_flow.py)
+
+* The most well-known statement type is the `if` statement.
+* Python's `for` statement iterates over the items of any sequence in the order.
+* The `range()` function iterate over a sequence of numbers.
+* `break` and `continue` statements.
+* The `pass` statement does nothing.
+* A `match` statement takes an expression and compares its value to successive patterns.
+
