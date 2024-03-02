@@ -71,7 +71,7 @@ Be careful not to fall off!
 Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt
 causes the interpreter to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following command: `quit()`.
 
-##### 2.1.2 [Argument Passing](python/arugment_passing.py)
+##### 2.1.2 [Argument Passing](arugment_passing.py)
 
 Type `python3 -h` will print help infomation.
 
@@ -92,15 +92,10 @@ Type `python3 python/argument_passing.py` will execute commands from file.
 
 ### 3. An Informal Introduction to Python
 
-#### 3.1 [Numbers and variable](python/simple_calculator.py)
+#### 3.1 [Numbers and variable](simple_calculator.py)
 
 The integer numbers (e.g. 2, 4, 20) have type `int`, the ones with a fractional part (e.g. 5.0, 6.0)
 have type `float`.
-
-#### 3.2 Text
-
-Textual data in Python is handled with `str` objects, or strings. Strings are immutable sequences
-of Unicode code points.
 
 Variables are essential for holding onto and referencing values throughout our application. By
 storing a value into a variable, you can reuse it as many times and in whatever way you like
@@ -109,4 +104,22 @@ throughout your project.
 You can think of variables as boxes with labels, where the label represents the variable name
 and the content of the box is the value that the variable holds.
 
+#### 3.2 [Text](manipulate_text.py)
+
+Textual data in Python is handled with `str` objects, or strings. Strings are immutable sequences
+of Unicode code points.
+
+One way to remember how slices work is to think of the indices as pointing between characters, with
+the left edge of the first character numbered 0. Then the right edge of the last character of a
+string of n characters has index n, for example:
+
+```
+ +---+---+---+---+---+---+
+ | P | y | t | h | o | n |
+ +---+---+---+---+---+---+
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+```
+
 #### 3.3 The introduction of `List` structure
+
