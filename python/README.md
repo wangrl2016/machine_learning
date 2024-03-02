@@ -9,16 +9,17 @@ and will give you a good idea of the language's flavor and style.
 
 #### 1.1 What Python can do?
 
-Python is simple to use, but it is a real programming language, offering much more structure and support for large
-programs than shell scripts or batch files can offer.
+Python is simple to use, but it is a real programming language, offering much more structure and
+support for large programs than shell scripts or batch files can offer.
 
-The rest of the tutorial introduces various features of the Python language and system through examples, beginning
-with simple expressions, statements and data types, through functions and modules, and finally touching upon
-advanced concepts like exceptions and user-defined classes.
+The rest of the tutorial introduces various features of the Python language and system through
+examples, beginning with simple expressions, statements and data types, through functions and
+modules, and finally touching upon advanced concepts like exceptions and user-defined classes.
 
 #### 1.2 Python Installing
 
-Download python installer from [Python download page](https://www.python.org/downloads/)，install Python as prompted.
+Download python installer from [Python download page](https://www.python.org/downloads/)，install
+Python as prompted.
 Open terminal type `python3` to see if installed successfully.
 
 ```
@@ -31,8 +32,8 @@ Everythin is OK, celebration!
 #### 1.3 Code editor
 
 There are many editors on the market, here are the recommended [Visual Studio code](https://code.visualstudio.com/).
-Visual Studio code is a lightweight but powerful source code editor which runs on you desktop and is availabel for
-Windows, macOS and Linux.
+Visual Studio code is a lightweight but powerful source code editor which runs on you desktop and
+is availabel for Windows, macOS and Linux.
 
 Install VS Code for your platform and configure the tool set for your development needs.
 
@@ -67,10 +68,25 @@ Be careful not to fall off!
 >>>
 ```
 
-Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt causes the interpreter
-to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following
-command: `quit()`.
+Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt
+causes the interpreter to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following command: `quit()`.
 
-##### 2.1.2 Argument Passing
+##### 2.1.2 [Argument Passing](python/arugment_passing.py)
 
-* PEP 299 - Special __main__() function in modules
+Type `python3 -h` will print help infomation.
+
+```
+-c cmd : program passed in as string (terminates option list)
+-m mod : run library module as a script (terminates option list)
+Arguments:
+file   : program read from script file
+-      : program read from stdin (default; interactive mode if a tty)
+arg ...: arguments passed to program in sys.argv[1:]
+```
+
+Type `python3 python/argument_passing.py` will execute commands from file.
+
+* PEP 299 - Special `__main__()` function in modules
+* PEP 3105 – Make print a function
+* sys — System-specific parameters and functions
+
