@@ -166,3 +166,16 @@ complex(**{'real': 3, 'imag': 5})
 ```
 
 #### 4.3 More on Defining Functions
+
+* A function definition may look like:
+
+```
+def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
+      -----------    ----------     ----------
+          |              |              |
+          |    positional or keyword    |
+          |                             - keyword only
+           -- positional only
+```
+
+where / and * are optional.
