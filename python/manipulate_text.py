@@ -61,3 +61,16 @@ if __name__ == '__main__':
     print(word[4:])
     # Characters from the second-last (included) to the end.
     print(word[-2:])
+
+    # Attemping to use an index that too large will result in an error.
+    # print(word[42])
+
+    # Python strings cannot be changed - they are immutable.
+    # Therefore assigning to an indexed position in the string results in an error.
+    # word[0] = 'J'
+
+    # If you need a different string, you should create a new one.
+    print('J' + word[1:])
+
+    # The built-in function len() returns the length of a string.
+    print(len('abcdef'))
