@@ -121,5 +121,14 @@ string of n characters has index n, for example:
 -6  -5  -4  -3  -2  -1
 ```
 
-#### 3.3 The introduction of `List` structure
+#### 3.3 [The introduction of `List` structure](list_struct.py)
+
+#### 3.4 [Fibonacci sequence](fibonacci_series.py)
+
+The Fibonacci numbers may be defined by the recurrence relation F0 = 0, F1 = 1,
+and F(n) = F(n-1) + F(n-2) for n > 1.
+
+| F0 | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10 |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --  |
+| 0  | 1  | 1  | 2  | 3  | 5  | 8  | 13 | 21 | 34 | 55  |
 
