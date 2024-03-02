@@ -92,7 +92,7 @@ Type `python3 python/argument_passing.py` will execute commands from file.
 
 ### 3. An Informal Introduction to Python
 
-#### 3.1 [Numbers and variable](simple_calculator.py)
+#### 3.1 [Numbers and Variable](simple_calculator.py)
 
 The integer numbers (e.g. 2, 4, 20) have type `int`, the ones with a fractional part (e.g. 5.0, 6.0)
 have type `float`.
@@ -123,7 +123,7 @@ string of n characters has index n, for example:
 
 #### 3.3 [The introduction of `List` structure](list_struct.py)
 
-#### 3.4 [Fibonacci sequence](fibonacci_series.py)
+#### 3.4 [Fibonacci Sequence](fibonacci_series.py)
 
 The Fibonacci numbers may be defined by the recurrence relation F0 = 0, F1 = 1,
 and F(n) = F(n-1) + F(n-2) for n > 1.
@@ -132,7 +132,7 @@ and F(n) = F(n-1) + F(n-2) for n > 1.
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --  |
 | 0  | 1  | 1  | 2  | 3  | 5  | 8  | 13 | 21 | 34 | 55  |
 
-### More Control Flow
+### 4. More Control Flow Tools
 
 #### 4.1 [Control Flow](control_flow.py)
 
@@ -143,3 +143,6 @@ and F(n) = F(n-1) + F(n-2) for n > 1.
 * The `pass` statement does nothing.
 * A `match` statement takes an expression and compares its value to successive patterns.
 
+#### 4.2 Defining Functions
+
+#### 4.3 More on Defining Functions
