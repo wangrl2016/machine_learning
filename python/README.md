@@ -90,3 +90,23 @@ Type `python3 python/argument_passing.py` will execute commands from file.
 * PEP 3105 – Make print a function
 * sys — System-specific parameters and functions
 
+### 3. An Informal Introduction to Python
+
+#### 3.1 [Numbers and variable](python/simple_calculator.py)
+
+The integer numbers (e.g. 2, 4, 20) have type `int`, the ones with a fractional part (e.g. 5.0, 6.0)
+have type `float`.
+
+#### 3.2 Text
+
+Textual data in Python is handled with `str` objects, or strings. Strings are immutable sequences
+of Unicode code points.
+
+Variables are essential for holding onto and referencing values throughout our application. By
+storing a value into a variable, you can reuse it as many times and in whatever way you like
+throughout your project.
+
+You can think of variables as boxes with labels, where the label represents the variable name
+and the content of the box is the value that the variable holds.
+
+#### 3.3 The introduction of `List` structure
