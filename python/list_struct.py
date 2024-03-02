@@ -53,3 +53,16 @@ if __name__ == '__main__':
     print(colors[0])
     print(colors[2])
     print(len(colors))
+
+    fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+    print(fruits.count('apple'))
+    print(fruits.index('banana'))
+    # Find next banana starting at position 4.
+    print(fruits.index('banana', 4))
+    fruits.reverse()
+    print(fruits)
+    fruits.append('grape')
+    print(fruits)
+    fruits.sort()
+    print(fruits)
+    print(fruits.pop())

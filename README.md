@@ -14,6 +14,7 @@ Mainly divided into three parts for learning:
 - [x] Using the Python Interpreter
 - [x] An Informal Introduction to Python
 - [x] More Control Flow Tools
+- [ ] Data Structures
 
 (2) Python standard library
 

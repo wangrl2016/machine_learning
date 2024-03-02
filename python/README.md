@@ -165,7 +165,7 @@ complex(real=3, imag=5)
 complex(**{'real': 3, 'imag': 5})
 ```
 
-#### 4.3 More on Defining Functions
+#### 4.3 [More on Defining Functions](argument_list.py)
 
 * A function definition may look like:
 
@@ -179,3 +179,15 @@ def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 ```
 
 where / and * are optional.
+
+### 5. Data Structures
+
+More content reference [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+
+#### 5.1 [Stack Implementation](stack_impl.py)
+
+* A stack is an abstract data type that serves as a collection of elements with two main operations:
+
+(1) Push, which adds an elements to the collection, and
+
+(2) Pop, which removes the most recently added element.
