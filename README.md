@@ -15,7 +15,8 @@ Mainly divided into three parts for learning:
 - [x] An Informal Introduction to Python
 - [x] More Control Flow Tools
 - [x] Data Structures
-- [ ] Modules
+- [x] Modules and Packages
+- [ ] Import and Output
 
 (2) Python standard library
 

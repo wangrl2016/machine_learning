@@ -204,7 +204,7 @@ testing and eliminating duplicate entries.
 can be any immutable type.
 
 
-### 6. Modules
+### 6. Modules and Packages
 
 A module is a file containing Python definitions and statements. The file name is the module name
 with the suffix `.py` appended.
@@ -228,3 +228,17 @@ directory under the name `module.version.pyc`, where the version encodes the for
 compiled file; it generally contains the Python version number.
 
 #### 6.2 Packages
+
+Packages are a way of structuring Python's module namespace by using "dotted module names". For
+example, the module name `A.B` designates a submodule name `B` in a package named `A`.
+
+### 7. Input and Output
+
+### 7.1 [Format Output](output_format.py)
+
+* To use formatted string literals, begin a string with `f` or `F` before the opening quotation
+mark or triple quotation mark.
+
+* The `str.format()` method of string requires more manual effort.
+
+* Using string slicing and concatenation operations to create any layout you can imagine.
