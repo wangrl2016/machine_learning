@@ -188,9 +188,9 @@ More content reference [TheAlgorithms/Python](https://github.com/TheAlgorithms/P
 
 * A stack is an abstract data type that serves as a collection of elements with two main operations:
 
-(1) Push, which adds an elements to the collection, and
+&emsp;&emsp; (1) Push, which adds an elements to the collection, and
 
-(2) Pop, which removes the most recently added element.
+&emsp;&emsp; (2) Pop, which removes the most recently added element.
 
 * Tuples are immutable, and usually contain a heterogeneous sequence of elements that are
 accessed via unpacking or indexing (or even by attribute in the case of namedtuples).
@@ -202,3 +202,29 @@ testing and eliminating duplicate entries.
 
 * Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which
 can be any immutable type.
+
+
+### 6. Modules
+
+A module is a file containing Python definitions and statements. The file name is the module name
+with the suffix `.py` appended.
+
+#### 6.1 [The Introduction of Module](intro_module.py)
+
+* When a module named `spam` is imported, the interpreter first searches for a built-in module
+with that name. These module names are listed in `sys.builtin_module_names`. If not found, it
+then searches for a file named `spam.py` in a list of directories given by the variable
+`sys.path`. `sys.path` is initialized from these locations:
+
+&emsp;&emsp; (1) The directory containing the input script.
+
+&emsp;&emsp; (2) PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).
+
+&emsp;&emsp; (3) The installation-dependent default (by convention including a `site-packages` directory
+handled by the `site` module).
+
+* To speed up loading modules, Python caches the compiled version of each module in the `__pycache__`
+directory under the name `module.version.pyc`, where the version encodes the format of the
+compiled file; it generally contains the Python version number.
+
+#### 6.2 Packages
