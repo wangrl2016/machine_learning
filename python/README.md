@@ -71,7 +71,7 @@ Be careful not to fall off!
 Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt
 causes the interpreter to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following command: `quit()`.
 
-##### 2.1.2 [Argument Passing](arugment_passing.py)
+##### 2.1.2 [Argument Passing](argument_passing.py)
 
 Type `python3 -h` will print help infomation.
 
