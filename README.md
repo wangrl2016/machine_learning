@@ -16,7 +16,9 @@ Mainly divided into three parts for learning:
 - [x] More Control Flow Tools
 - [x] Data Structures
 - [x] Modules and Packages
-- [ ] Import and Output
+- [x] Import and Output
+- [ ] Classes
+- [ ] Errors and Exceptions
 
 (2) Python standard library
 

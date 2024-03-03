@@ -1,9 +1,18 @@
-
 ## [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
 This tutorial does not attempt to be comprehensive and cover every single feature, or even
 every commonly used feature. Instead, it introduces many of Python's most noteworthly features,
 and will give you a good idea of the language's flavor and style.
+
+| Chapter | Code                   | Code                | Code            | code                |
+| ------- | ---------------------- | ------------------- | --------------- | ------------------- |
+| 1       |                        |                     |                 |                     |
+| 2       | argument_passing.py    |                     |                 |                     |
+| 3       | simple_calculator.py   | manipulate_text.py  | list_struct.py  | fibonacci_series.py |
+| 4       | control_flow.py        | define_function.py  | argument_list.py                      |
+| 5       | stack_impl.py          | data_structure.py   |                 |                     |
+| 6       | intro_module.py        | fibo.py             |                 |                     |
+| 7       | output_format.py       | file_read_write.py  |                 |                     |
 
 ### 1. Whetting Your Appetite
 
@@ -192,6 +201,8 @@ More content reference [TheAlgorithms/Python](https://github.com/TheAlgorithms/P
 
 &emsp;&emsp; (2) Pop, which removes the most recently added element.
 
+#### 5.2 [Common Data Structure](data_structure.py)
+
 * Tuples are immutable, and usually contain a heterogeneous sequence of elements that are
 accessed via unpacking or indexing (or even by attribute in the case of namedtuples).
 Lists are mutable, and their elements are usually homogeneous and are accessed by iterating
@@ -234,7 +245,7 @@ example, the module name `A.B` designates a submodule name `B` in a package name
 
 ### 7. Input and Output
 
-### 7.1 [Format Output](output_format.py)
+#### 7.1 [Format Output](output_format.py)
 
 * To use formatted string literals, begin a string with `f` or `F` before the opening quotation
 mark or triple quotation mark.
@@ -242,3 +253,17 @@ mark or triple quotation mark.
 * The `str.format()` method of string requires more manual effort.
 
 * Using string slicing and concatenation operations to create any layout you can imagine.
+
+#### 7.2 [Reading and Writing Files](file_read_write.py)
+
+* `open()` returns a file object, and is most commonly used with two positional arguments and one
+key-word argument: `open(filename, mode, encoding=None)`.
+
+### 8. Classes
+
+Classes provide a means of bundling data and functionality  together. Creating a new class creates
+a new type of object, allowing new instances of that type to be made. Each class instance
+can have attributes attached to it for maintaining its state. Class instances can also have
+methods (defined by its class) for modifying its state.
+
+### 9. Errors and Exceptions
