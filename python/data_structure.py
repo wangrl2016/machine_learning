@@ -1,5 +1,6 @@
 from collections import deque
 from math import pi
+import math
 
 if __name__ == '__main__':
     queue = deque(['Eric', 'John', 'Michael'])
@@ -87,7 +88,106 @@ if __name__ == '__main__':
     # `del` can also be used to delete entire variables.
     del a
 
+    t = 12345, 54321, 'hello!'
+    print(t[0])
+    print(t)
     
+    # Tuples may be nested.
+    u = t, (1, 2, 3, 4, 5)
+    print(u)
 
+    # Tuples are immutable.
+    # t[0] = 99
 
+    empty = ()
+    singleton = 'hello',
+    print(len(empty))
+    print(len(singleton))
+    print(singleton)
+
+    # Sequence unpacking requires that there are as many variables on the left side of
+    # the equals sign as there are elements in the sequence.
+    x, y, z = t
+    print(x)
+    print(y)
+    print(z)
+
+    # Curly braces or the `set()` function can be used to create sets.
+    basket = {'apple', 'organe', 'apple', 'pear', 'orange', 'banana'}
+    print(basket)
+    print('orange' in basket)
+    print('crabgrass' in basket)
+
+    # Demonstrate set operations on unique letters from two words.
+    a = set('abracadabra')
+    b = set('alacazam')
+    print(a)
+    print(b)
+    # Letter in a but not in b.
+    print(a - b)
+    # Letter in a or b or both.
+    print(a | b)
+    # Letters in both a and b.
+    print(a & b)
+    # Letters in a or b but or both.
+    print(a ^ b)
+
+    # Set comprehensions are supported.
+    print({x for x in 'abracadabra' if x not in 'abc'})
+
+    # dictionary
+    tel = {'jack': 4098, 'sape': 4139}
+    tel['guido'] = 4217
+    print(tel)
+    print(tel['jack'])
+    del tel['sape']
+    tel['irv'] = 4127
+    print(tel)
+    print(list(tel))
+    sorted(tel)
+    print('guido' in tel)
+    print('jack' not in tel)
+
+    # The `dict()` constructor builds dictonaries directly from sequences of key-value pairs.
+    print(dict([('sape', 4139), ('guido', 4127), ('jack', 4098)]))
+    print({x: x**2 for x in (2, 4, 6)})
+
+    # Key and corresponding value can be retrieved at the same time using the `items()` method.
+    knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+    for k, v in knights.items():
+        print(k, v)
+    
+    # The position index and corresponding value can be retrieved at the same time
+    # using the `enumerate()` function.
+    for i, v in enumerate(['tic', 'tac', 'toe']):
+        print(i, v)
+    
+    # To loop over two or more sequences at the same time, the entries can be paired with
+    # the `zip()` function.
+    questions = ['name', 'quest', 'favorite color']
+    answers = ['lancelot', 'the holy grail', 'blue']
+    for q, a in zip(questions, answers):
+        print('What is your {0}? It is {1}.'.format(q, a))
+
+    # Loop over a sequence in reverse.
+    for i in reversed(range(1, 10, 2)):
+        print(i)
+
+    # Loop over a sequence in sorted order.
+    basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+    for i in sorted(basket):
+        print(i, end=' ')
+    print()
+    
+    for f in sorted(set(basket)):
+        print(f, end=' ')
+    print()
+
+    # Change a list while looping over it.
+    raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]
+    filtered_data = []
+    for value in raw_data:
+        if not math.isnan(value):
+            filtered_data.append(value)
+    print(filtered_data)
 

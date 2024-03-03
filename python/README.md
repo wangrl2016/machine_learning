@@ -191,3 +191,14 @@ More content reference [TheAlgorithms/Python](https://github.com/TheAlgorithms/P
 (1) Push, which adds an elements to the collection, and
 
 (2) Pop, which removes the most recently added element.
+
+* Tuples are immutable, and usually contain a heterogeneous sequence of elements that are
+accessed via unpacking or indexing (or even by attribute in the case of namedtuples).
+Lists are mutable, and their elements are usually homogeneous and are accessed by iterating
+over the list.
+
+* A set is an unordered collection with no duplicate elements. Basic uses include membership
+testing and eliminating duplicate entries.
+
+* Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which
+can be any immutable type.
