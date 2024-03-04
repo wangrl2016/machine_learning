@@ -45,8 +45,8 @@ continuous practice in subsequent studies.
 - [x] Data Structures
 - [x] Modules and Packages
 - [x] Import and Output
-- [ ] Classes
-- [ ] Errors and Exceptions
+- [x] Classes
+- [x] Errors and Exceptions
 
 (2) Python standard library
 
