@@ -301,3 +301,14 @@ executed, and then execution continues after the try/except block.
 * If an exception occurs which does not match the exception named in the except clause, it is
 passed on to outer `try` statements; if no handler is found, it is an unhandled exception and
 execution stops with an error message.
+
+## Python Standard Library
+
+| Chapter | Code                  |
+| --------| --------------------- |
+| 1       | std_lib_intro1.py     |
+| 2       | std_lib_intro2.py     |
+
+1. Brief Tour of the Standard Library (I)
+
+2. Brief Tour of the Standard Library (II)

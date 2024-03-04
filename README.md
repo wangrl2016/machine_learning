@@ -27,7 +27,7 @@ not that mysterious after all. Then I wish you success.
 
 ## Prerequisite
 
-* [Python](python)
+### [Python](python)
 
 Python is a programming language that lets you work quickly and integrate systems more effectively.
 Mainly divided into three parts for learning:
@@ -48,7 +48,7 @@ continuous practice in subsequent studies.
 - [x] Classes
 - [x] Errors and Exceptions
 
-(2) Python standard library
+(2) Python Standard Library
 
 Only select common and important content for introduction. For comprehensive information, please
 refer to the official website [The Python Standard Library](https://docs.python.org/3/library/index.html).
@@ -61,10 +61,10 @@ refer to the official website [The Python Standard Library](https://docs.python.
 Mainly select libraries related to machine learning for introduction to consolidate the Python
 tutorials learned previously.
 
-- [ ] NumPy
-- [ ] Matplotlib
+- [ ] [NumPy](https://numpy.org/): The fundamental package for scientific computing with Python
+- [ ] [Matplotlib](https://matplotlib.org/): Visualization with Python
 
-* [Math](math)
+### [Math](math)
 
 Machine learning involves a large amount of mathematical knowledge, among which calculus,
 linear algebra, and probability theory are particularly important. The following is divided
@@ -119,4 +119,6 @@ Calculus III
 
 ## Basic of Machine Learning
 
-
+It is mainly written with reference to the [TensorFlow](https://www.tensorflow.org/)
+official website and the book [Deep Learning with Python](https://github.com/fchollet/deep-learning-with-python-notebooks),
+which comprehensively covers the basic content of machine learning.
