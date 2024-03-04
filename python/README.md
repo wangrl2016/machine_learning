@@ -266,4 +266,8 @@ a new type of object, allowing new instances of that type to be made. Each class
 can have attributes attached to it for maintaining its state. Class instances can also have
 methods (defined by its class) for modifying its state.
 
+#### 8.1 [A First Look at Classes](class_intro.py)
+
+There are two kind of valid attribute names: data attributes and methods.
+
 ### 9. Errors and Exceptions
