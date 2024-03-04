@@ -268,6 +268,19 @@ methods (defined by its class) for modifying its state.
 
 #### 8.1 [A First Look at Classes](class_intro.py)
 
-There are two kind of valid attribute names: data attributes and methods.
+* There are two kind of valid attribute names: data attributes and methods.
+
+* Python inheritance syntax
+
+```
+# Define a superclass.
+class SuperClass:
+    # Attributes and method definition.
+   
+# inheritance
+class SubClass(SuperClass):
+    # Attributes and method of SuperClass.
+    # Attributes and method of SubClass.
+```
 
 ### 9. Errors and Exceptions

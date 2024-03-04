@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # Two or more string literals next to each other are automatically concatednated.
     print('Py' 'thon')
     # This feature is particularly useful when you want to break long string.
-    print('Put several strings within parenthese '
+    print('Put several strings within parentheses '
           'to have them joined together.')
     
     prefix = 'Py'
@@ -40,18 +40,18 @@ if __name__ == '__main__':
     print(prefix + 'thon')
 
     word = 'Python'
-    # String can be indexed(subscripted), with the first character having index 0.
+    # String can be indexed(subscribed), with the first character having index 0.
     print(word[0])
     print(word[5])
     
-    # Indices may also be negative numbers, to start couning from the right.
+    # Indices may also be negative numbers, to start counting from the right.
     print(word[-1])
     # second-last character
     print(word[-2])
 
     # While indexing is used to obtain individual characters, slicing allows you to obtain
     # a substring.
-    # Charaters from position 0 (included) to 2 (excluded).
+    # Characters from position 0 (included) to 2 (excluded).
     print(word[0:2])
     print(word[4:6])
 
@@ -62,11 +62,11 @@ if __name__ == '__main__':
     # Characters from the second-last (included) to the end.
     print(word[-2:])
 
-    # Attemping to use an index that too large will result in an error.
+    # Attempting to use an index that too large will result in an error.
     # print(word[42])
 
     # Python strings cannot be changed - they are immutable.
-    # Therefore assigning to an indexed position in the string results in an error.
+    # Therefore, assigning to an indexed position in the string results in an error.
     # word[0] = 'J'
 
     # If you need a different string, you should create a new one.

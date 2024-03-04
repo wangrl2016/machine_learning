@@ -34,8 +34,9 @@ Mainly divided into three parts for learning:
 
 (1) The Python tutorial
 
-This tutorial is just a Python learning outline that will allow you to write Python code
-quickly. Practice makes perfect and requires continuous practice in subsequent studies.
+This tutorial refers to the official tutorial [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+which will allow you to write Python code quickly. Practice makes perfect and requires
+continuous practice in subsequent studies.
 
 - [x] Whetting Your Appetite
 - [x] Using the Python Interpreter
