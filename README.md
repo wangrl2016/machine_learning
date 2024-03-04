@@ -14,8 +14,8 @@ well as a lot of mathematical background, especially derivatives and matrices.
 This tutorial is mainly divided into three parts: the first part is prerequisites, mainly solving
 programming and mathematical problems; the second part is the basics of machine learning, writing
 neural networks from scratch, training simple data, and comprehensively understanding the
-TensorFlow library; the third part is It is to follow the industry cutting-edge, such as learning
-large models and reading relevant papers.
+TensorFlow library; the third part is to follow the industry cutting-edge, such as learning
+large language models and reading relevant papers.
 
 If your English is not good, it is recommended that you start by learning English first, because
 many materials come from the English-speaking world. If some people pay attention to this tutorial,
@@ -34,6 +34,9 @@ Mainly divided into three parts for learning:
 
 (1) The Python tutorial
 
+This tutorial is just a Python learning outline that will allow you to write Python code
+quickly. Practice makes perfect and requires continuous practice in subsequent studies.
+
 - [x] Whetting Your Appetite
 - [x] Using the Python Interpreter
 - [x] An Informal Introduction to Python
@@ -46,11 +49,16 @@ Mainly divided into three parts for learning:
 
 (2) Python standard library
 
+Only select common and important content for introduction. For comprehensive information, please
+refer to the official website [The Python Standard Library](https://docs.python.org/3/library/index.html).
+
 (3) Third-party library
+
+Mainly select libraries related to machine learning for introduction to consolidate the Python
+tutorials learned previously.
 
 - [ ] NumPy
 - [ ] Matplotlib
-- [ ] 
 
 * [Math](math)
 
@@ -71,4 +79,4 @@ into four parts:
 - [ ] Systems of Equations and Inequalities
 - [ ] Analytic Geometry
 - [ ] Sequences, Probability and Counting Theory
-- [ ] Introduciton to Calculus 
+- [ ] Introduction to Calculus 
