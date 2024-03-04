@@ -82,4 +82,34 @@ into four parts:
 - [ ] Sequences, Probability and Counting Theory
 - [ ] Introduction to Calculus 
 
-(2) 
+(2) Calculus
+
+Calculus uses the textbook provided by [OpenStax](https://openstax.org/), which contains three
+volumes in total. It guides students through the core concepts of calculus and helps them
+understand how those concepts apply to their lives and the world around them.
+
+Calculus I
+
+- [ ] Functions and Graphs
+- [ ] Limits
+- [ ] Derivatives
+- [ ] Applications of Derivatives
+- [ ] Integration
+- [ ] Application of Integration
+
+Calculus II
+
+- [ ] Techniques of Integration
+- [ ] Introduction to Differential Equations
+- [ ] Sequences and Series
+- [ ] Power Series
+- [ ] Parametric Equations and Polar
+
+Calculus III
+
+- [ ] Vectors in Space
+- [ ] Vector-Valued Functions
+- [ ] Differentitation of Functions of Several Variables
+- [ ] Multiple Integration
+- [ ] Vector Calculus
+- [ ] Second-Order Differential Equations
