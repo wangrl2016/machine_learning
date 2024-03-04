@@ -24,7 +24,7 @@ class Dog:
         self.name = name
 
 class MistakenDog:
-    # Mistaken use of a class variable
+    # Mistaken use of a class variable.
     tricks = []
 
     def __init__(self, name):

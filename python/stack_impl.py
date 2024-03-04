@@ -16,13 +16,13 @@ def push(stack, item):
 
 # Function to remove an item from stack. It decreases size by 1.
 def pop(stack):
-    if (is_empty(stack)):
+    if is_empty(stack):
         # return minus infinite
         return str(-sys.maxisze - 1)
     return stack.pop()
 
 def peek(stack):
-    if (is_empty(stack)):
+    if is_empty(stack):
         return str(-sys.maxsize - 1)
     return stack[len(stack) - 1]
 

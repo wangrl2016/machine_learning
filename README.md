@@ -81,3 +81,5 @@ into four parts:
 - [ ] Analytic Geometry
 - [ ] Sequences, Probability and Counting Theory
 - [ ] Introduction to Calculus 
+
+(2) 
