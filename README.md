@@ -53,6 +53,9 @@ continuous practice in subsequent studies.
 Only select common and important content for introduction. For comprehensive information, please
 refer to the official website [The Python Standard Library](https://docs.python.org/3/library/index.html).
 
+- [x] Brief Tour of the Standard Library (I)
+- [ ] Brief Tour of the Standard Library (II)
+
 (3) Third-party library
 
 Mainly select libraries related to machine learning for introduction to consolidate the Python
@@ -113,3 +116,7 @@ Calculus III
 - [ ] Multiple Integration
 - [ ] Vector Calculus
 - [ ] Second-Order Differential Equations
+
+## Basic of Machine Learning
+
+
