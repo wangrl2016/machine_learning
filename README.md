@@ -55,6 +55,7 @@ refer to the official website [The Python Standard Library](https://docs.python.
 
 - [x] Brief Tour of the Standard Library (I)
 - [ ] Brief Tour of the Standard Library (II)
+- [ ] `turtle` — Turtle graphics
 
 (3) Third-party library
 
@@ -65,6 +66,15 @@ tutorials learned previously. Reference book: [Python Data Science Handbook](htt
 - [ ] [Pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
 - [ ] [Matplotlib](https://matplotlib.org/): Visualization with Python
 
+There are many ways to get started with Python, and you can even learn other languages first,
+such as C language and Java language, these languages have a lot in common. You can choose
+what you like during the learning process. Here are some learning materials for reference
+and consolidation.
+
+* [The Python Coding Book](https://thepythoncodingbook.com/)
+* [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
+* [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
+
 ### [Math](math)
 
 Machine learning involves a large amount of mathematical knowledge, among which calculus,
@@ -73,7 +83,10 @@ into four parts:
 
 (1) Precalculus
 
-Precalculus uses the textbook provided by [OpenStax](https://openstax.org/).
+Precalculus uses the textbook provided by [OpenStax](https://openstax.org/)，which provides a
+comprehensive exploration of mathematical principles and meets scope and sequence requirements
+for a typical precalculus course. The text proceeds from functions through trigonometry and
+ends with an introduction to calculus.
 
 - [ ] Functions
 - [ ] Linear Functions
