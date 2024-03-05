@@ -59,9 +59,10 @@ refer to the official website [The Python Standard Library](https://docs.python.
 (3) Third-party library
 
 Mainly select libraries related to machine learning for introduction to consolidate the Python
-tutorials learned previously.
+tutorials learned previously. Reference book: [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 
 - [ ] [NumPy](https://numpy.org/): The fundamental package for scientific computing with Python
+- [ ] [Pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
 - [ ] [Matplotlib](https://matplotlib.org/): Visualization with Python
 
 ### [Math](math)
@@ -71,6 +72,8 @@ linear algebra, and probability theory are particularly important. The following
 into four parts:
 
 (1) Precalculus
+
+Precalculus uses the textbook provided by [OpenStax](https://openstax.org/).
 
 - [ ] Functions
 - [ ] Linear Functions
@@ -112,7 +115,7 @@ Calculus III
 
 - [ ] Vectors in Space
 - [ ] Vector-Valued Functions
-- [ ] Differentitation of Functions of Several Variables
+- [ ] Differentiation of Functions of Several Variables
 - [ ] Multiple Integration
 - [ ] Vector Calculus
 - [ ] Second-Order Differential Equations
