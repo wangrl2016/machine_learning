@@ -150,6 +150,7 @@ TensorFlow has APIs available in several languages both for constructing and exe
 TensorFlow graph. Because the official [API Documentation](https://www.tensorflow.org/api_docs/)
 is constantly updated, there will be differences between this tutorial and the official API.
 
+* tf
 * tf.audio
 * tf.autodiff
 * tf.autograph
