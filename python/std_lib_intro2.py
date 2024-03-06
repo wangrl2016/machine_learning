@@ -15,12 +15,29 @@ if __name__ == '__main__':
 
     zf = zipfile.ZipFile('temp_file.zip', 'r')
     print(zf.read('from_string.txt'))
-
-    os.remove('temp_file.zip')
+    zf.close()
 
     # The `struct` modules provides `pack()` and `unpack()` functions for working with variable
     # length binary recorde formats. Pack codes `H` and `I` represent two and four byte
     # unsigned numbers respectively. The `<` indicates that they are standard size and in
     # litter-endian byte order.
+    with open('temp_file.zip', 'rb') as f:
+        data = f.read()
 
-    pass
+    start = 0
+    # Show the first file headers.
+    for i in range(1):
+        start += 14
+        fields = struct.unpack('<IIIHH', data[start:start+16])
+        crc32, comp_size, uncomp_size, filename_size, extra_size = fields
+        start += 16
+        filename = data[start:start + filename_size]
+        start += filename_size
+        extra = data[start: start + extra_size]
+        print(filename, hex(crc32), comp_size, uncomp_size)
+        start += extra_size + comp_size
+
+    os.remove('temp_file.zip')
+
+
+
