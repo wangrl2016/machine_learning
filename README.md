@@ -54,8 +54,9 @@ Only select common and important content for introduction. For comprehensive inf
 refer to the official website [The Python Standard Library](https://docs.python.org/3/library/index.html).
 
 - [x] Brief Tour of the Standard Library (I)
-- [ ] Brief Tour of the Standard Library (II)
+- [x] Brief Tour of the Standard Library (II)
 - [ ] `turtle` — Turtle graphics
+- [ ] `logging` - Logging facility for Python
 
 (3) Third-party library
 
