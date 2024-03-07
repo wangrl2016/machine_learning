@@ -56,7 +56,7 @@ refer to the official website [The Python Standard Library](https://docs.python.
 - [x] Brief Tour of the Standard Library (I)
 - [x] Brief Tour of the Standard Library (II)
 - [x] `turtle` — Turtle graphics
-- [ ] `logging` - Logging facility for Python
+- [x] `logging` - Logging facility for Python
 
 (3) Third-party library
 
@@ -191,5 +191,5 @@ is constantly updated, there will be differences between this tutorial and the o
 * tf.tpu
 * tf.train
 * tf.types
-* tf.version
+- [x] tf.version
 * tf.xla
