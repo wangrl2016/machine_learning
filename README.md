@@ -55,7 +55,7 @@ refer to the official website [The Python Standard Library](https://docs.python.
 
 - [x] Brief Tour of the Standard Library (I)
 - [x] Brief Tour of the Standard Library (II)
-- [ ] `turtle` — Turtle graphics
+- [x] `turtle` — Turtle graphics
 - [ ] `logging` - Logging facility for Python
 
 (3) Third-party library
