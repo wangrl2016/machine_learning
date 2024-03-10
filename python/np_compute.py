@@ -40,7 +40,6 @@ if __name__ == '__main__':
 
     print(M.max(axis=1))
 
-
     a = np.array([0, 1, 2])
     b = np.array([5, 5, 5])
 
@@ -56,18 +55,3 @@ if __name__ == '__main__':
     print(a)
     print(b)
     print(a + b)
-
-    
-
-
-
-
-
-
-
-
-
-
-
-    
-
