@@ -63,7 +63,7 @@ refer to the official website [The Python Standard Library](https://docs.python.
 Mainly select libraries related to machine learning for introduction to consolidate the Python
 tutorials learned previously. Reference book: [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 
-- [ ] [NumPy](https://numpy.org/): The fundamental package for scientific computing with Python
+- [x] [NumPy](https://numpy.org/): The fundamental package for scientific computing with Python
 - [ ] [Pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
 - [ ] [Matplotlib](https://matplotlib.org/): Visualization with Python
 

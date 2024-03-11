@@ -1,7 +1,7 @@
 ## [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
 This tutorial does not attempt to be comprehensive and cover every single feature, or even
-every commonly used feature. Instead, it introduces many of Python's most noteworthly features,
+every commonly used feature. Instead, it introduces many of Python's most noteworthy features,
 and will give you a good idea of the language's flavor and style.
 
 | Chapter | Code                   | Code                | Code            | code                |
@@ -44,7 +44,7 @@ Everythin is OK, celebration!
 
 There are many editors on the market, here are the recommended [Visual Studio code](https://code.visualstudio.com/).
 Visual Studio code is a lightweight but powerful source code editor which runs on you desktop and
-is availabel for Windows, macOS and Linux.
+is available for Windows, macOS and Linux.
 
 Install VS Code for your platform and configure the tool set for your development needs.
 
@@ -66,7 +66,7 @@ Open terminal and type `which python3`, it will show path of python installed.
 /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
 ```
 
-Type `python3` in termianl will enter python interpreter, which is said to be in interactive mode. In this mode
+Type `python3` in terminal will enter python interpreter, which is said to be in interactive mode. In this mode
 it prompts for the next command with the primary prompt, usually three greater-than signs (>>>); for continuation
 lines it prompts with the secondary prompt, by default three dots(...).
 
@@ -84,7 +84,7 @@ causes the interpreter to exit with a zero exit status. If that doesn't work, yo
 
 ##### 2.1.2 [Argument Passing](argument_passing.py)
 
-Type `python3 -h` will print help infomation.
+Type `python3 -h` will print help information.
 
 ```
 -c cmd : program passed in as string (terminates option list)
@@ -206,7 +206,7 @@ More content reference [TheAlgorithms/Python](https://github.com/TheAlgorithms/P
 #### 5.2 [Common Data Structure](data_structure.py)
 
 * Tuples are immutable, and usually contain a heterogeneous sequence of elements that are
-accessed via unpacking or indexing (or even by attribute in the case of namedtuples).
+accessed via unpacking or indexing (or even by attribute in the case of named-tuples).
 Lists are mutable, and their elements are usually homogeneous and are accessed by iterating
 over the list.
 
@@ -293,7 +293,7 @@ Errors detected duration exection are called exceptions.
 
 The `try` statement works as follows:
 * First, the try clause (the statement(s) between the `try` and `except` keywords) is executed.
-* If no exception occurs, the except clause is skipped and exection of  the `try` statement is
+* If no exception occurs, the except clause is skipped and execution of  the `try` statement is
 finished.
 * If an exception occurs during execution of the `try` clause, the rest of the clause is skipped.
 Then, if its type matches the exception named after the `except` keyword, the except clause is
@@ -304,11 +304,25 @@ execution stops with an error message.
 
 ## Python Standard Library
 
-| Chapter | Code                  |
-| --------| --------------------- |
-| 1       | std_lib_intro1.py     |
-| 2       | std_lib_intro2.py     |
+| Chapter   | Code                  |
+|-----------| --------------------- |
+| 1         | std_lib_intro1.py     |
+| 2         | std_lib_intro2.py     |
+| 3         | turtle_graphics.py    |
+| 4         | logging_facility.py   |
 
-1. Brief Tour of the Standard Library (I)
+### 1. [Brief Tour of the Standard Library (I)](std_lib_intro1.py)
 
-2. Brief Tour of the Standard Library (II)
+### 2. [Brief Tour of the Standard Library (II)](std_lib_intro2.py)
+
+### 3. [`turtle` — Turtle graphics](turtle_graphics.py)
+
+### 4. [`logging` - Logging facility for Python](logging_facility.py)
+
+## Third-party library
+
+### 1. Introduction to NumPy
+
+### 2. Data manipulation with Pandas
+
+### 3. Visualization with Matplotlib
