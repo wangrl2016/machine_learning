@@ -145,6 +145,8 @@ which comprehensively covers the basic content of machine learning.
 An efficient and high-intensity bootcamp designed to teach you the fundamentals of deep
 learning as quickly as possible!
 
+- [ ] Tensor
+
 (2) TensorFlow Python API
 
 TensorFlow has APIs available in several languages both for constructing and executing a
