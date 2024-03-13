@@ -146,6 +146,7 @@ An efficient and high-intensity bootcamp designed to teach you the fundamentals 
 learning as quickly as possible!
 
 - [ ] Tensor
+- [ ] Variable
 
 (2) TensorFlow Python API
 
