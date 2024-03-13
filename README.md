@@ -147,6 +147,7 @@ learning as quickly as possible!
 
 - [ ] Tensor
 - [ ] Variable
+- [ ] Automatic Differentiation
 
 (2) TensorFlow Python API
 
