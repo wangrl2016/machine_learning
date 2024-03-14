@@ -145,9 +145,19 @@ which comprehensively covers the basic content of machine learning.
 An efficient and high-intensity bootcamp designed to teach you the fundamentals of deep
 learning as quickly as possible!
 
+- [ ] What is Deep Learning 
 - [ ] Tensor
+- [ ] Tensor Slicing
 - [ ] Variable
+- [ ] TensorFlow Function
+- [ ] Simple Function Implementation
+- [ ] The Mathematical Building Blocks of Neural Networks
+- [ ] Simple Neutral Network
 - [ ] Automatic Differentiation
+- [ ] Advanced Autodiff
+- [ ] Binary Classification with DNN
+- [ ] Graph
+- [ ] Modules, Layers, and Models
 
 (2) TensorFlow Python API
 
