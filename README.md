@@ -207,3 +207,11 @@ is constantly updated, there will be differences between this tutorial and the o
 * tf.types
 - [x] tf.version
 * tf.xla
+
+
+## Cutting Edge
+
+- [ ] Deep Residual Learning for Image Recognition (12/10/2015)
+
+- [ ] Attention Is All You Need (6/12/2017)
+

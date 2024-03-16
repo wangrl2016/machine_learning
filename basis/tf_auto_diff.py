@@ -57,5 +57,53 @@ if __name__ == '__main__':
     dy_dx = tape.gradient(y, x)
     print(dy_dx.numpy())
 
+    x0 = tf.Variable(0.0)
+    x1 = tf.Variable(10.0)
+
+    with tf.GradientTape(watch_accessed_variables=False) as tape:
+        tape.watch(x1)
+        y0 = tf.math.sin(x0)
+        y1 = tf.nn.softplus(x1)
+        y = y0 + y1
+        ys = tf.reduce_sum(y)
+
+    # dys/dx1 = exp(x1) / (1 + exp(x1)) = sigmoid(x1)
+    grad = tape.gradient(ys, {'x0': x0, 'x1': x1})
+    print('dy/dx0:', grad['x0'])
+    print('dy/dx1:', grad['x1'].numpy())
+
+    x = tf.constant(3.0)
+    with tf.GradientTape() as tape:
+        tape.watch(x)
+        y = x * x
+        z = y * y
     
+    # Use the tape to compute the gradient of z with respect to the
+    # intermediate value y.
+    # dz_dy = 2 * y and y = x**2 = 9
+    print(tape.gradient(z, y).numpy())
+
+    x = tf.constant([1, 3.0])
+    with tf.GradientTape(persistent=True) as tape:
+        tape.watch(x)
+        y = x * x
+        z = y * y
+
+    # [4.0, 108.0] (4 * x**3 at x = [1.0, 3.0])
+    print(tape.gradient(z, x).numpy())
+    # [2.0, 6.0] (2 * x at x = [1.0, 3.0])
+    print(tape.gradient(y, x).numpy())
+
+    x = tf.Variable(2.0)
+    with tf.GradientTape(persistent=True) as tape:
+        y0 = x**2
+        y1 = 1 / x
+    
+    print(tape.gradient(y0, x).numpy())
+    print(tape.gradient(y1, x).numpy())
+
+    x = tf.Variable(2.)
+    with tf.GradientTape() as tape:
+        y = x * [3., 4.]
+    print(tape.gradient(y, x).numpy())
 
