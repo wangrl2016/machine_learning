@@ -107,3 +107,58 @@ if __name__ == '__main__':
         y = x * [3., 4.]
     print(tape.gradient(y, x).numpy())
 
+    x = tf.constant(1.0)
+
+    v0 = tf.Variable(2.0)
+    v1 = tf.Variable(2.0)
+
+    with tf.GradientTape(persistent=True) as tape:
+        tape.watch(x)
+        if x > 0.0:
+            result = v0
+        else:
+            result = v1**2
+    
+    dv0, dv1 = tape.gradient(result, [v0, v1])
+    print(dv0)
+    print(dv1)
+
+    x = tf.Variable(2.)
+    y = tf.Variable(3.)
+
+    with tf.GradientTape() as tape:
+        z = y * y
+    print(tape.gradient(z, x))
+
+    x = tf.Variable([[1.0, 2.0],
+                     [3.0, 4.0]], dtype=tf.float32)
+    with tf.GradientTape() as tape:
+        x2 = x**2
+
+        # This step is calculated with NumPy.
+        y = np.mean(x2, axis=0)
+
+        # Like most ops, reduce_mean will cast the NumPy array to a constant
+        # tensor using `tf.convert_to_tensor`.
+        y = tf.reduce_mean(y, axis=0)
+    print(tape.gradient(y, x))
+
+    x = tf.constant(10)
+    with tf.GradientTape() as g:
+        g.watch(x)
+        y = x * x
+    print(g.gradient(y, x))
+
+    x0 = tf.Variable(3.0)
+    x1 = tf.Variable(0.0)
+
+    with tf.GradientTape() as tape:
+        # Update x1 = x1 + x0
+        x1.assign_add(x0)
+        # The tape starts recording from x1.
+        # y = (x1 + x0) ** 2
+        y = x1**2
+    
+    # This doesn't work.
+    # dy/dx0 = 2*(x1 + x0)
+    print(tape.gradient(y, x0))
