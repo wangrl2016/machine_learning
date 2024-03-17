@@ -76,6 +76,29 @@ and consolidation.
 * [C Primer Plus](https://www.oreilly.com/library/view/c-primer-plus/9780133432398/)
 * [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
 
+To check if you have mastered Python, here are a few small tests to complete.
+
+- [ ] Text: Load height-weight-gender database
+- [ ] Sound: Handwritten WAV decoder according to protocol
+
+If you don't know anything about computer basics, then you'd better need to supplement the
+basics, including computer systems and algorithms, before proceeding to more in-depth study.
+
+(4) Computer Systems: A Programmer's Perspective, 3rd Edition
+
+- [ ] A Tour of Computer Systems
+- [ ] Representing and Manipulating Information
+- [ ] Machine-Level Representation of Programs
+- [ ] Processor Architecture
+- [ ] Optimizing Program Performance
+- [ ] The Memory Hierarchy
+- [ ] Linking
+- [ ] Exceptional Control Flow
+- [ ] Virtual Memory
+- [ ] System-Level I/O
+- [ ] Network Programming
+- [ ] Concurrent Programming
+
 ### [Math](math)
 
 Machine learning involves a large amount of mathematical knowledge, among which calculus,
