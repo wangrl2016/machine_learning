@@ -23,3 +23,27 @@ if __name__ == '__main__':
                            ['ghi', '789']]).numpy())
     print(tf.strings.join([['abc', '123'],
                            ['def', '456']], separator=' ').numpy())
+
+    print(tf.strings.lower('CamelCase string and ALL CAPS'))
+
+    # Joins all strings into a single, or join along an axis.
+    print(tf.strings.reduce_join([['abc', '123'],
+                                  ['def', '456']]).numpy())
+    print(tf.strings.reduce_join([['abc', '123'],
+                                  ['def', '456']], axis=-1).numpy())
+    
+    # split
+    print(tf.strings.split('hello world').numpy())
+    print(tf.strings.split(['hello world', 'a b c']))
+
+    # strip
+    print(tf.strings.strip(['\nTensorFlow', '  The python library ']).numpy())
+
+    # substr
+    input = [b'Hello', b'World']
+    position = 1
+    length = 3
+    print(tf.strings.substr(input, position, length))
+
+    # upper
+    print(tf.strings.upper('CamelCase string and ALL CAPS'))

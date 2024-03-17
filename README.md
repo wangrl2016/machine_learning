@@ -198,7 +198,7 @@ is constantly updated, there will be differences between this tutorial and the o
 * tf.sets
 * tf.signal
 * tf.sparse
-* tf.strings
+- [x] tf.strings
 * tf.summary
 * tf.sysconfig
 * tf.test
