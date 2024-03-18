@@ -37,6 +37,27 @@ if __name__ == '__main__':
     A = tf.constant([2, 20, 30, 3, 6])
     print(tf.math.argmax(A))
 
+    # Returns the index with the smallest value across axes of a tensor.
+    a = [1, 10, 26.9, 2.8, 166.32, 62.3]
+    print(tf.math.argmin(input=a))
+
+    # Return the ceiling of the input, element-wise.
+    print(tf.math.ceil([-1.7, -1.5, -0.2, 0.2, 1.5, 1.7, 2.0]))
+
+    # cos
+    x = tf.constant([-float("inf"), -9, -0.5, 1, 1.2, 200, 10000, float("inf")])
+    print(tf.math.cos(x))
+
+    # divide
+    x = tf.constant([16, 12, 11])
+    y = tf.constant([4, 6, 2])
+    print(tf.divide(x, y))
+
+    # Returns the truth value of (x == y) element-wise.
+    x = tf.constant([2, 4])
+    y = tf.constant(2)
+    print(tf.math.equal(x, y))
+
 
 
 

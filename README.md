@@ -99,6 +99,44 @@ basics, including computer systems and algorithms, before proceeding to more in-
 - [ ] Network Programming
 - [ ] Concurrent Programming
 
+(5) Introduction to Algorithms, 4th Edition
+
+- [ ] The Role of Algorithms in Computing
+- [ ] Getting Started
+- [ ] Characterizing running Times
+- [ ] Divide-and-Conquer
+- [ ] Probabilistic Analysis and Randomized Algorithms
+- [ ] Heapsort
+- [ ] Quicksort
+- [ ] Sorting in Linear Time
+- [ ] Medians and Order Statistics
+- [ ] Elementary Data Structures
+- [ ] Hash Tables
+- [ ] Binary Search Trees
+- [ ] Red-Black Trees
+- [ ] Dynamic Programming
+- [ ] Greedy Algorithms
+- [ ] Amortized Analysis
+- [ ] Augmenting Data Structures
+- [ ] B-Trees
+- [ ] Data Structures for Disjoint Sets
+- [ ] Elementary Graph Algorithms
+- [ ] Minimum Spanning Trees
+- [ ] Single-Source Shortest Paths
+- [ ] All-Pairs Shortest Paths
+- [ ] Maximum Flow
+- [ ] matchings in Bipartite Graphs
+- [ ] Parallel Algorithms
+- [ ] Online Algorithms
+- [ ] Matrix Operations
+- [ ] Linear Programming
+- [ ] Polynomials and the FFT
+- [ ] Number-Theoretic Algorithms
+- [ ] String Matching
+- [ ] Machine-Learning Algorithms
+- [ ] NP-Completeness
+- [ ] Approximation Algorithms
+
 ### [Math](math)
 
 Machine learning involves a large amount of mathematical knowledge, among which calculus,
