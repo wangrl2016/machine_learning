@@ -137,6 +137,9 @@ basics, including computer systems and algorithms, before proceeding to more in-
 - [ ] NP-Completeness
 - [ ] Approximation Algorithms
 
+The difficulty of (4) and (5) is beyond imagination, so it is best to watch the official
+video and check more information, focusing on understanding the relevant concepts.
+
 ### [Math](math)
 
 Machine learning involves a large amount of mathematical knowledge, among which calculus,
@@ -195,6 +198,35 @@ Calculus III
 - [ ] Vector Calculus
 - [ ] Second-Order Differential Equations
 
+(3) Introduction to Linear Algebra, 6th Edition
+
+- [ ] Vectors and Matrices
+- [ ] Solving Linear Equations Ax = b
+- [ ] The Four Fundamental Subspaces
+- [ ] Orthogonality
+- [ ] Determinants
+- [ ] Eigenvalues and Eigenvectors
+- [ ] The Singular Value Decomposition
+- [ ] Linear Transformations
+- [ ] Linear Algebra in Optimization
+- [ ] Learning from Data
+
+(4) Introductory Statistics
+
+- [ ] Sampling and Data
+- [ ] Descriptive Statistics
+- [ ] Probability Topics
+- [ ] Discrete Random Variables
+- [ ] Continuous Random Variables
+- [ ] The Normal Distribution
+- [ ] The Central Limit Theorem
+- [ ] Confidence Intervals
+- [ ] Hypothesis Testing with One Sample
+- [ ] Hypothesis Testing with Two Samples
+- [ ] The Chi-Square Distribution
+- [ ] Linear Regression and Correlation
+- [ ] F Distribution and One-Way ANOVA 
+
 ## Basic of Machine Learning
 
 It is mainly written with reference to the [TensorFlow](https://www.tensorflow.org/)
@@ -246,7 +278,7 @@ is constantly updated, there will be differences between this tutorial and the o
 * tf.linalg
 * tf.lite
 * tf.lookup
-* tf.math
+- [ ] tf.math
 * tf.mlir
 * tf.nest
 * tf.nn
