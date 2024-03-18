@@ -301,6 +301,29 @@ is constantly updated, there will be differences between this tutorial and the o
 - [x] tf.version
 * tf.xla
 
+(3) Understanding Deep Learning
+
+- [ ] Introduction
+- [ ] Supervised Learning
+- [ ] Shallow Neural Networks
+- [ ] Deep Neural Networks
+- [ ] Loss Functions
+- [ ] Training Models
+- [ ] Gradients and Initialization
+- [ ] Measuring Performance
+- [ ] Regularization
+- [ ] Convolutional Networks
+- [ ] Residual Networks
+- [ ] transformers
+- [ ] Graph Neural Networks
+- [ ] Unsupervised Learning
+- [ ] Generative Adversarial Networks
+- [ ] Normalizing Flows
+- [ ] Variational Autoencoders
+- [ ] Diffusion Models
+- [ ] Deep Reinforcement Learning
+- [ ] Why Does Deep Learning Work?
+- [ ] Deep Learning and Ethics
 
 ## Cutting Edge
 
