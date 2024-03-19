@@ -64,7 +64,7 @@ Mainly select libraries related to machine learning for introduction to consolid
 tutorials learned previously. Reference book: [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 
 - [x] [NumPy](https://numpy.org/): The fundamental package for scientific computing with Python
-- [ ] [Pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
+- [x] [Pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
 - [ ] [Matplotlib](https://matplotlib.org/): Visualization with Python
 
 There are many ways to get started with Python, and you can even learn other languages first,
@@ -80,6 +80,8 @@ To check if you have mastered Python, here are a few small tests to complete.
 
 - [ ] Text: Load height-weight-gender database
 - [ ] Sound: Handwritten WAV decoder according to protocol
+
+### Computer Science
 
 If you don't know anything about computer basics, then you'd better need to supplement the
 basics, including computer systems and algorithms, before proceeding to more in-depth study.
@@ -125,7 +127,7 @@ basics, including computer systems and algorithms, before proceeding to more in-
 - [ ] Single-Source Shortest Paths
 - [ ] All-Pairs Shortest Paths
 - [ ] Maximum Flow
-- [ ] matchings in Bipartite Graphs
+- [ ] Matchings in Bipartite Graphs
 - [ ] Parallel Algorithms
 - [ ] Online Algorithms
 - [ ] Matrix Operations

@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-
 if __name__ == '__main__':
     data = pd.Series([0.25, 0.5, 0.75, 1.0])
     print(data)
@@ -14,7 +13,7 @@ if __name__ == '__main__':
 
     data = pd.Series([0.25, 0.5, 0.75, 1.0],
                      index=['a', 'b', 'c', 'd'])
-    
+
     print(data['b'])
 
     data = pd.Series([0.25, 0.5, 0.75, 1.0],
@@ -35,22 +34,7 @@ if __name__ == '__main__':
 
     print(pd.Series([2, 4, 6]))
     print(pd.Series(5, index=[100, 200, 300]))
-    print(pd.Series({2:'a', 1:'b', 3:'c'}))
-    print(pd.Series({2:'a', 1:'b', 3:'c'}, index=[3, 2]))
+    print(pd.Series({2: 'a', 1: 'b', 3: 'c'}))
+    print(pd.Series({2: 'a', 1: 'b', 3: 'c'}, index=[3, 2]))
 
-    print(pd.Series({2:'a', 1:'b', 3:'c'}, index=[3, 2]))
-    
-
-
-
-
-
-
-    
-
-
-
-    
-
-
-
+    print(pd.Series({2: 'a', 1: 'b', 3: 'c'}, index=[3, 2]))

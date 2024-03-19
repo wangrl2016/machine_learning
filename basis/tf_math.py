@@ -8,6 +8,7 @@ if __name__ == '__main__':
 
     # complex number
     x = tf.constant([[-2.25 + 4.75j], [-3.25 + 5.75j]])
+    print(x)
 
     # Computes acos of x element-wise.
     x = tf.constant([1.0, -0.5, 3.4, 0.2, 0.0, -2], dtype=tf.float32)
@@ -57,7 +58,4 @@ if __name__ == '__main__':
     x = tf.constant([2, 4])
     y = tf.constant(2)
     print(tf.math.equal(x, y))
-
-
-
 
