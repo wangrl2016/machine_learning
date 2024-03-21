@@ -15,3 +15,11 @@ Tensors have shapes. Some vocabulary:
 * Size: The total number of items in the tensor, the product of the shape vector's elements.
 
 - [x] tf.version
+
+### Understanding Deep Learning
+
+#### 1. Introduction
+
+Machine learning methods can coarsely be divided into three areas: supervised, unsupervised,
+and reinforcement learning. At the time of writing, the cutting-edge methods in all three
+areas rely on deep learning.

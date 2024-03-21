@@ -65,6 +65,7 @@ tutorials learned previously. Reference book: [Python Data Science Handbook](htt
 
 - [x] [NumPy](https://numpy.org/): The fundamental package for scientific computing with Python
 - [x] [Pandas](https://pandas.pydata.org/): Data analysis and manipulation tool
+- [ ] [SciPy ](https://scipy.org): An open-source software for mathematics, science, and engineering.
 - [ ] [Matplotlib](https://matplotlib.org/): Visualization with Python
 
 There are many ways to get started with Python, and you can even learn other languages first,
