@@ -4,19 +4,23 @@ This tutorial does not attempt to be comprehensive and cover every single featur
 every commonly used feature. Instead, it introduces many of Python's most noteworthy features,
 and will give you a good idea of the language's flavor and style.
 
-| Chapter | Code                   | Code                | Code            | code                |
-| ------- | ---------------------- | ------------------- | --------------- | ------------------- |
-| 1       |                        |                     |                 |                     |
-| 2       | argument_passing.py    |                     |                 |                     |
-| 3       | simple_calculator.py   | manipulate_text.py  | list_struct.py  | fibonacci_series.py |
-| 4       | control_flow.py        | define_function.py  | argument_list.py                      |
-| 5       | stack_impl.py          | data_structure.py   |                 |                     |
-| 6       | intro_module.py        | fibo.py             |                 |                     |
-| 7       | output_format.py       | file_read_write.py  |                 |                     |
-| 8       | class_intro.py         | class_inheritance.py| class_iterator.py                     |
-| 9       | error_exception.py     |                     |                 |                     |
+| Chapter | Code                 | Code                 | Code              | code                |
+|---------|----------------------|----------------------|-------------------|---------------------|
+| 1       |                      |                      |                   |                     |
+| 2       | argument_passing.py  |                      |                   |                     |
+| 3       | simple_calculator.py | manipulate_text.py   | list_struct.py    | fibonacci_series.py |
+| 4       | control_flow.py      | define_function.py   | argument_list.py  |                     |
+| 5       | stack_impl.py        | data_structure.py    |                   |                     |
+| 6       | intro_module.py      | fibo.py              |                   |                     |
+| 7       | output_format.py     | file_read_write.py   |                   |                     |
+| 8       | class_intro.py       | class_inheritance.py | class_iterator.py |                     |
+| 9       | error_exception.py   |                      |                   |                     |
 
 ### 1. Whetting Your Appetite
+
+When you ask me how to learn programming, I think the most important thing is that practice makes
+perfect. If there is anything else to add, it is to learn more from good people and read more
+what they write.
 
 #### 1.1 What Python can do?
 
@@ -31,6 +35,7 @@ modules, and finally touching upon advanced concepts like exceptions and user-de
 
 Download python installer from [Python download page](https://www.python.org/downloads/)，install
 Python as prompted.
+
 Open terminal type `python3` to see if installed successfully.
 
 ```
@@ -38,7 +43,7 @@ Python 3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1
 Type "help", "copyright", "credits" or "license" for more information.
 ```
 
-Everythin is OK, celebration!
+Everything is OK, celebration!
 
 #### 1.3 Code editor
 
@@ -50,15 +55,39 @@ Install VS Code for your platform and configure the tool set for your developmen
 
 ### 2. Using the Python Interpreter
 
-#### 2.1 Invoking the Interpreter
+The Python Interpreter is the core component of the Python programming language. It is a
+software application that reads and executes Python code. When you write Python code in a
+file or directly into an interactive shell, the Python Interpreter is responsible for
+interpreting that code and executing it.
 
-There are 2 way to invoking the interpreter:
+The Python Interpreter performs several key tasks:
 
-* Interactive mode: commands are read from terminal.
-* Argument passing: script file is used.
+**Parsing**: It reads the Python code and converts it into a form that the interpreter can understand.
+This involves tokenizing the code into individual elements (such as keywords, identifiers,
+operators, etc.) and building a data structure (usually an abstract syntax tree) that represents
+the code's structure.
 
+**Execution**: Once the code has been parsed, the interpreter executes it lines by line,
+following the order of statements and expressions as defined by the code. It evaluates expressions,
+executes statements, and performs any necessary operations defined by the code.
 
-##### 2.1.1 Interactive Mode
+**Memory Management**: The interpreter manages memory allocation and de-allocation as required
+by the code. It allocates memory for variables, objects, and data structures created during
+execution and releases memory when it's no longer needed (such as when variables go out of
+scope or objects are garbage collected).
+
+**Error Handling**: If the interpreter encounters any errors or exceptions during execution
+(such as syntax errors, runtime errors, or logical errors), it handles them appropriately.
+This may involve raising an exception, displaying an error message, or halting execution,
+depending on the nature of the error.
+
+The Python Interpreter is available as a standalone application that you can run from the
+command line or as part of an integrated development environment (IDE) that provides features
+such as code editing, debugging, and execution within a single interface. It is written in C
+programming language and is highly portable, supporting a wide range of platforms and
+operating systems.
+
+##### 2.1 Interactive Mode
 
 Open terminal and type `which python3`, it will show path of python installed.
 
@@ -66,9 +95,10 @@ Open terminal and type `which python3`, it will show path of python installed.
 /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
 ```
 
-Type `python3` in terminal will enter python interpreter, which is said to be in interactive mode. In this mode
-it prompts for the next command with the primary prompt, usually three greater-than signs (>>>); for continuation
-lines it prompts with the secondary prompt, by default three dots(...).
+Type `python3` in terminal will enter python interpreter, which is said to be in interactive
+mode. In this mode it prompts for the next command with the primary prompt, usually three
+greater-than signs (>>>); for continuation lines it prompts with the secondary prompt, by
+default three dots(...).
 
 ```
 >>> the_world_is_flat = True
@@ -80,9 +110,10 @@ Be careful not to fall off!
 ```
 
 Typing and end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt
-causes the interpreter to exit with a zero exit status. If that doesn't work, you can exit the interpreter by typing the following command: `quit()`.
+causes the interpreter to exit with a zero exit status. If that doesn't work, you can exit the
+interpreter by typing the following command: `quit()`.
 
-##### 2.1.2 [Argument Passing](argument_passing.py)
+##### 2.2 [Argument Passing](argument_passing.py)
 
 Type `python3 -h` will print help information.
 
@@ -98,8 +129,9 @@ arg ...: arguments passed to program in sys.argv[1:]
 Type `python3 python/argument_passing.py` will execute commands from file.
 
 * PEP 299 - Special `__main__()` function in modules
-* PEP 3105 – Make print a function
-* sys — System-specific parameters and functions
+* PEP 3105 – Make `print` a function
+* `sys` — System-specific parameters and functions
+* Built-in functions
 
 ### 3. An Informal Introduction to Python
 
