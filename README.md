@@ -262,10 +262,10 @@ TensorFlow graph. Because the official [API Documentation](https://www.tensorflo
 is constantly updated, there will be differences between this tutorial and the official API.
 
 * tf
-* tf.audio
-* tf.autodiff
-* tf.autograph
-* tf.bitwise
+- [ ] tf.audio
+- [ ] tf.autodiff
+- [ ] tf.autograph
+- [ ] tf.bitwise
 * tf.compat
 * tf.config
 * tf.data
