@@ -41,5 +41,12 @@
 #### 4.1 The Y86-64 Instruction Set Architecture
 #### 4.2 Logic Design and the Hardware Control Language HCL
 #### 4.3 Sequential Y86-64 Implementations
+#### 4.4 General Principles of Pipelining
+#### 4.5 Pipelined Y86-64 Implementations
+#### 4.6 Summary
 
+### 5. Optimizing Program Performance
+
+#### 5.1 Capabilities and Limitations of Optimzing Compilers
+#### 
 
