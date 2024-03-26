@@ -45,3 +45,74 @@ areas rely on deep learning.
 #### 3.3 Multivariate Inputs and Outputs
 #### 3.4 Shallow Neural Networks: General Case
 #### 3.5 Terminology
+#### 3.6 Summary
+
+### 4. Deep Neural Networks
+
+#### 4.1 Composing Neural Networks
+#### 4.2 From Composing Networks to Deep Networks
+#### 4.3 Deep Neural Networks
+#### 4.4 Matrix Notation
+#### 4.5 Shallow vs. Deep Neural Networks
+#### 4.6 Summary
+
+### 5. Loss Functions
+
+#### 5.1 Maximum Likelihood
+#### 5.2 Recipe for Constructing Loss Functions
+#### 5.3 Example 1: Univariate Regression
+#### 5.4 Example 2: Binary Classification
+#### 5.5 Example 3: Multiclass Classification
+#### 5.6 Multiple Outputs
+#### 5.7 Cross-entropy Loss
+#### 5.8 Summary
+
+### 6. Fitting Models
+
+#### 6.1 Gradient Descent
+#### 6.2 Stochastic Gradient Descent
+#### 6.3 Momentum
+#### 6.4 Adam
+#### 6.5 Training Algorithm Hyperparameters
+#### 6.6 Summary
+
+### 7. Graidents and Initialization
+
+#### 7.1 Problem Definitions
+#### 7.2 Computing Derivatives
+#### 7.3 Toy Example
+#### 7.4 Backpropagation Algorithm
+#### 7.5 Parameter Initialization
+#### 7.6 Example Training Code
+#### 7.7 Summary
+
+### 8. Measuring Performance
+
+#### 8.1 Training a Simple Model
+#### 8.2 Sources of Error
+#### 8.3 Reducing Error
+#### 8.4 Double Descent
+#### 8.5 Choosing Hyperparameters
+#### 8.6 Summary
+
+### 9. Regularization
+
+#### 9.1 Explicit Regularization
+#### 9.2 Implicit Regularization
+#### 9.3 Heuristics to Improve Performance
+#### 9.4 Summary
+
+### 10. Convolutional Networks
+
+#### 10.1 Invariance and Equivariance
+#### 10.2 Convolutional Networks for 1D inputs
+#### 10.3 Convolutional Networks for 2D inputs
+#### 10.4 Downsampling and Unsampling
+#### 10.5 Applications
+#### 10.6 Summary
+
+### 11. Residual Networks
+
+#### 11.1 Sequential Processing
+#### 11.2 Residual Connecting and Residual Blocks
+
