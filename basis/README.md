@@ -16,10 +16,32 @@ Tensors have shapes. Some vocabulary:
 
 - [x] tf.version
 
-### Understanding Deep Learning
+## Understanding Deep Learning
 
-#### 1. Introduction
+### 1. Introduction
 
 Machine learning methods can coarsely be divided into three areas: supervised, unsupervised,
 and reinforcement learning. At the time of writing, the cutting-edge methods in all three
 areas rely on deep learning.
+
+#### 1.1 Supervised Learning
+#### 1.2 Unsupervised Learning
+#### 1.3 Reinforcement Learning
+#### 1.4 Ethics
+#### 1.5 Structure of Book
+#### 1.6 Other Books
+#### 1.7 How to Read This Book
+
+### 2. Supervised Learning
+
+#### 2.1 Supervised Learning Overview
+#### 2.2 Linear Regression Example
+#### 2.3 Summary
+
+### 3. Shallow Neural Networks
+
+#### 3.1 Neural Network Example
+#### 3.2 Universal Approximation Theorem
+#### 3.3 Multivariate Inputs and Outputs
+#### 3.4 Shallow Neural Networks: General Case
+#### 3.5 Terminology
