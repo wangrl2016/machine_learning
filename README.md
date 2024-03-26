@@ -261,48 +261,48 @@ TensorFlow has APIs available in several languages both for constructing and exe
 TensorFlow graph. Because the official [API Documentation](https://www.tensorflow.org/api_docs/)
 is constantly updated, there will be differences between this tutorial and the official API.
 
-* tf
+- [ ] tf
 - [ ] tf.audio
 - [ ] tf.autodiff
 - [ ] tf.autograph
 - [ ] tf.bitwise
-* tf.compat
-* tf.config
-* tf.data
-* tf.debugging
-* tf.distribute
-* tf.dtypes
-* tf.errors
-* tf.experimental
-* tf.feature_column
-* tf.image
-* tf.io
-* tf.keras
-* tf.linalg
-* tf.lite
-* tf.lookup
+- [ ] tf.compat
+- [ ] tf.config
+- [ ] tf.data
+- [ ] tf.debugging
+- [ ] tf.distribute
+- [ ] tf.dtypes
+- [ ] tf.errors
+- [ ] tf.experimental
+- [ ] tf.feature_column
+- [ ] tf.image
+- [ ] tf.io
+- [ ] tf.keras
+- [ ] tf.linalg
+- [ ] tf.lite
+- [ ] tf.lookup
 - [ ] tf.math
-* tf.mlir
-* tf.nest
-* tf.nn
-* tf.profiler
-* tf.queue
-* tf.ragged
-* tf.random
-* tf.raw_ops
-* tf.saved_model
-* tf.sets
-* tf.signal
-* tf.sparse
+- [ ] tf.mlir
+- [ ] tf.nest
+- [ ] tf.nn
+- [ ] tf.profiler
+- [ ] tf.queue
+- [ ] tf.ragged
+- [ ] tf.random
+- [ ] tf.raw_ops
+- [ ] tf.saved_model
+- [ ] tf.sets
+- [ ] tf.signal
+- [ ] tf.sparse
 - [x] tf.strings
-* tf.summary
-* tf.sysconfig
-* tf.test
-* tf.tpu
-* tf.train
-* tf.types
+- [ ] tf.summary
+- [ ] tf.sysconfig
+- [ ] tf.test
+- [ ] tf.tpu
+- [ ] tf.train
+- [ ] tf.types
 - [x] tf.version
-* tf.xla
+- [ ] tf.xla
 
 (3) Understanding Deep Learning
 
