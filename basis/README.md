@@ -1,3 +1,22 @@
+## Deep Learning with Python
+
+### Preface
+
+### 1. What is Deep Learning?
+
+#### 1.1 Artificial Intelligence, Machine Learning, and Deep Learning
+#### 1.2 Before Deep Learning: A Brief History of Machine
+#### 1.3 Why Deep Learning? Why Now?
+
+### 2. The Mathematical Building Blocks of Neural Networks
+
+#### 2.1 A First Look at a Neural Network
+#### 2.2 Data Represetnations For Neural Networks
+#### 2.3 The Gears of Neural Networks: Tensor Operations
+#### 2.4 The Engine of Neural Networks: Gradient-Based
+
+
+
 ## Basic of Machine Learning
 
 - [ ] Tensor
@@ -44,6 +63,8 @@ Rather than learning a mapping from input to output, the goal is to describe or
 understand the structure of the data.
 
 #### 1.3 Reinforcement Learning
+
+
 #### 1.4 Ethics
 #### 1.5 Structure of Book
 #### 1.6 Other Books
