@@ -27,7 +27,22 @@ areas rely on deep learning.
 [ai_relationship.drawio](https://drive.google.com/file/d/1bpxuH7hIpAxgqb82dSW5jmk419Xx5gLp/view?usp=sharing)
 
 #### 1.1 Supervised Learning
+
+This vector forms the model input. The model maps the input to an output vector which is then
+"translated" back to a meaningful real-world prediction.
+
+Deep neural networks can process inputs that are very large, of variable length, and contain
+various kinds of internal structures. They can output single real numbers (regression),
+multiple numbers (multivariate regression), or probabilities over two or more classes
+(binary and multiclass classification, respectively).
+
 #### 1.2 Unsupervised Learning
+
+Constructing a model from input data without corresponding output labels in termed
+unsupervised learning; the absence of output labels means there can be no "supervision".
+Rather than learning a mapping from input to output, the goal is to describe or
+understand the structure of the data.
+
 #### 1.3 Reinforcement Learning
 #### 1.4 Ethics
 #### 1.5 Structure of Book
