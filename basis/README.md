@@ -24,6 +24,8 @@ Machine learning methods can coarsely be divided into three areas: supervised, u
 and reinforcement learning. At the time of writing, the cutting-edge methods in all three
 areas rely on deep learning.
 
+[ai_relationship.drawio](https://drive.google.com/file/d/1bpxuH7hIpAxgqb82dSW5jmk419Xx5gLp/view?usp=sharing)
+
 #### 1.1 Supervised Learning
 #### 1.2 Unsupervised Learning
 #### 1.3 Reinforcement Learning
