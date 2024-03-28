@@ -11,13 +11,47 @@
 ### 2. The Mathematical Building Blocks of Neural Networks
 
 #### 2.1 A First Look at a Neural Network
-#### 2.2 Data Represetnations For Neural Networks
+#### 2.2 Data Representations For Neural Networks
 #### 2.3 The Gears of Neural Networks: Tensor Operations
 #### 2.4 The Engine of Neural Networks: Gradient-Based
+#### 2.5 Looking Back at Our First Example
 
+### 3. Introduction to Keras and TensorFlow
 
+#### 3.1 What's TensorFlow?
+#### 3.2 What's Keras?
+#### 3.3 Keras and TensorFlow: A Brief History
+#### 3.4 Setting up a Deep Learning Workspace
+#### 3.5 First Steps with TensorFlow
+#### 3.6 Anatomy of a Neural Network: Understanding core Keras APIs
 
-## Basic of Machine Learning
+### 4. Getting Started with Neural Networks: Classification and Regression
+
+#### 4.1 Classifying Movie Reviews: A Binary Classification Example
+#### 4.2 Classifying News-wires: A Multiclass Classification Example
+#### 4.3 Predicting HousePrices: A Regression Example
+
+### 5. Fundamentals of Machine Learning
+
+#### 5.1 Generalization: The Goal of Machine Learning
+#### 5.2 Evaluating Machine Learning Models
+#### 5.3 Improving Model Fit
+#### 5.4 Improving Generalization
+
+### 6. The Universal Workflow of Machine Learning
+
+#### 6.1 Define the Task
+#### 6.2 Develop a Model
+#### 6.3 Deploy the Model
+
+### 7. Working with Keras: A Deep Dive
+
+#### 7.1 A Spectrum of Workflows
+#### 7.2 Different Ways to build Keras Models
+#### 7.3 Using Built-in Training and Evaluation Loops
+#### 7.4 Writing Your Own Training and Evaluation Loops
+
+## Guide of TensorFlow
 
 - [ ] Tensor
 
