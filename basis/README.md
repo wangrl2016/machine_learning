@@ -68,6 +68,39 @@
 
 #### 10.1 Different kinds of Timeseries Tasks
 #### 10.2 A Temperature-Forcasting Example
+#### 10.3 Understanding Recurrent Neural Networks
+#### 10.4 Advanced Use of Recurrent Neural Networks
+
+### 11. Deep Learning for Text
+
+#### 11.1 Netural Language Processing: The Bird's Eye View
+#### 11.2 Preparing Text Data
+#### 11.3 Two Approaches for Representing Groups of Words: Sets and Sequences
+#### 11.4 The Transformer Architecture
+#### 11.5 Beyond Text Classification: Sequence-to-sequence
+
+### 12. Generative Deep Learning
+
+#### 12.1 Text Generation
+#### 12.2 DeepDream
+#### 12.3 Neural Style Transfer
+#### 12.4 Generating Images with Variational Autoencoders
+#### 12.5 Introduction to Generative Adversarial Networks
+
+### 13. Best Practices for the Real World
+
+#### 13.1 Getting the Most out of Your Models
+#### 13.2 Scaling-up Model Training
+
+### Conclusions
+
+#### 14.1 Key concepts in Review
+#### 14.2 The Limitations of Deep Learning
+#### 14.3 Setting the Course Toward Greater Generality in AI
+#### 14.4 Implementating Intelligence: The Missing Ingredients
+#### 14.5 The Future of Deep Learning
+#### 14.6 Staying Up to Date in a Fast-moving Field
+#### 14.7 Final Words
 
 ## Guide of TensorFlow
 
