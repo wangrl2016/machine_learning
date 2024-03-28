@@ -236,12 +236,28 @@ It is mainly written with reference to the [TensorFlow](https://www.tensorflow.o
 official website and the book [Deep Learning with Python](https://github.com/fchollet/deep-learning-with-python-notebooks),
 which comprehensively covers the basic content of machine learning.
 
-(1) Introduction to Deep Learning
+(1) Deep Learning with Python
+
+- [ ] What is Deep Learning?
+- [ ] The Mathematical Building Blocks of Neural Networks
+- [ ] Introduction to Keras and TensorFlow
+- [ ] Getting Started with Neural Networks: Classification and Regression
+- [ ] Fundamentals of Machine Learning
+- [ ] The Universal Workflow of Machine Learning
+- [ ] Working with Keras: A Deep Dive
+- [ ] Introduction to Deep Learning for Computer Vision
+- [ ] Advanced Deep Learning for Computer Vision
+- [ ] Deep Learning for Timeseries
+- [ ] Deep Learning for Text
+- [ ] Generative Deep Learning
+- [ ] Best Practices for the Real World
+- [ ] Conclusions
+
+(2) Guide of TensorFlow
 
 An efficient and high-intensity bootcamp designed to teach you the fundamentals of deep
 learning as quickly as possible!
 
-- [ ] What is Deep Learning 
 - [ ] Tensor
 - [ ] Tensor Slicing
 - [ ] Variable
@@ -255,7 +271,7 @@ learning as quickly as possible!
 - [ ] Graph
 - [ ] Modules, Layers, and Models
 
-(2) TensorFlow Python API
+(3) TensorFlow Python API
 
 TensorFlow has APIs available in several languages both for constructing and executing a
 TensorFlow graph. Because the official [API Documentation](https://www.tensorflow.org/api_docs/)
@@ -304,7 +320,7 @@ is constantly updated, there will be differences between this tutorial and the o
 - [x] tf.version
 - [ ] tf.xla
 
-(3) Understanding Deep Learning
+(4) Understanding Deep Learning
 
 - [ ] Introduction
 - [ ] Supervised Learning

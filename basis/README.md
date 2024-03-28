@@ -51,6 +51,24 @@
 #### 7.3 Using Built-in Training and Evaluation Loops
 #### 7.4 Writing Your Own Training and Evaluation Loops
 
+### 8. Introduction to Deep Learning for Computer Vision
+
+#### 8.1 Introduction to Convnets
+#### 8.2 Training a Convnet from Scratch on a Small Dataset
+#### 8.3 Leveraging a Pretrained Model
+
+### 9. Advanced Deep Learning for Computer Vision
+
+#### 9.1 Three Essential Computer Vision Tasks
+#### 9.2 An Image Segmentation Example
+#### 9.3 Modern Convnet Architecture Patterns
+#### 9.4 Interpreting What Convnets Learn
+
+### 10. Deep Learning for Timeseries
+
+#### 10.1 Different kinds of Timeseries Tasks
+#### 10.2 A Temperature-Forcasting Example
+
 ## Guide of TensorFlow
 
 - [ ] Tensor
@@ -66,6 +84,8 @@ Tensors have shapes. Some vocabulary:
 * Rank: Number of tensor axes. A scalar has rank 0, a vector has rank 1, a matrix is rank 2.
 * Axis or Dimension: A particular dimension of a tensor.
 * Size: The total number of items in the tensor, the product of the shape vector's elements.
+
+## TensorFlow Python API
 
 - [x] tf.version
 
